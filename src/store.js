@@ -4,7 +4,7 @@
 
 import { LocalStorage } from "node-localstorage";
 
-const store = new LocalStorage("./data");
+const store = new LocalStorage("../data");
 
 try {
   store.setItem("test", "success");

@@ -1,0 +1,10 @@
+
+# Name of the server
+serverName: The Forest
+
+# Name of channel for receiving messages
+streamChannel: chat-stream
+
+# List of channels to blacklist
+blacklist:
+  - moderators

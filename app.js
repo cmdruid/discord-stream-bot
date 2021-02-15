@@ -1,6 +1,6 @@
 import Discord from "discord.js";
 import config from "./src/config.js";
-import store from "./data/store.js";
+import store from "./src/store.js";
 import { getStreams, startupMsg, handleMessage } from "./src/utils.js";
 
 const client = new Discord.Client();
